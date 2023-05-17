@@ -21,6 +21,7 @@
            android:layout_alignParentBottom="true">
 
         <TextView
+            android:id="@+id/currentQuestion"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Question 1"
@@ -28,6 +29,7 @@
             android:textSize="25sp"/>
 
         <TextView
+            android:id="@+id/totalQuestion"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="/10"
@@ -56,7 +58,7 @@
         android:layout_marginTop="60dp"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/question"
+            android:id="@+id/questionTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
