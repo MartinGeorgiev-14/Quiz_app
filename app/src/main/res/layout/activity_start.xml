@@ -42,8 +42,9 @@
         android:text="Begin"
         android:textColor="#FFFFFF"
         android:textAllCaps="false"
-        android:background="@drawable/beggin_button"
         />
+
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/QuitButton"

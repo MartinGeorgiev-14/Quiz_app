@@ -1,6 +1,8 @@
 package com.example.quizapp;
 
-public class QuestionsList {
+import java.io.Serializable;
+
+public class QuestionsList implements Serializable {
     private final String question, optionOne, optionTwo, optionThree, optionFour;
     private int answer;
     private int userSelectedAnswer;

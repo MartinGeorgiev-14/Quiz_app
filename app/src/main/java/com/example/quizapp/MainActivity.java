@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void selectOption(RelativeLayout selectedOptionLayout, ImageView selectedOptionIcon)
     {
-        //reset the slected option in order to select a new one
+        //reset the selected option in order to select a new one
         resetOptions();
 
         selectedOptionIcon.setImageResource(R.drawable.checkblue);

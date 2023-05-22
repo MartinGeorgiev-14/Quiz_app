@@ -6,6 +6,9 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+
+import java.util.zip.Inflater;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -14,8 +17,8 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        final AppCompatButton startQuizButton = findViewById(R.id.startQuizButton);
-        final AppCompatButton quitButton = findViewById(R.id.QuitButton);
+        final Button startQuizButton = findViewById(R.id.startQuizButton);
+        final Button quitButton = findViewById(R.id.QuitButton);
 
         startQuizButton.setOnClickListener(new View.OnClickListener() {
             @Override
