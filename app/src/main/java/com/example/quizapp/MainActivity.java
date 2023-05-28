@@ -218,10 +218,12 @@ public class MainActivity extends AppCompatActivity {
         optionThreeLayout.setBackgroundResource(R.drawable.question_round);
         optionFourLayout.setBackgroundResource(R.drawable.question_round);
 
-        optionOneIcon.setBackgroundResource(R.drawable.round_check_background);
-        optionTwoIcon.setBackgroundResource(R.drawable.round_check_background);
-        optionThreeIcon.setBackgroundResource(R.drawable.round_check_background);
-        optionFourIcon.setBackgroundResource(R.drawable.round_check_background);
+
+        optionOneIcon.setImageResource(0);
+        optionTwoIcon.setImageResource(0);
+        optionThreeIcon.setImageResource(0);
+        optionFourIcon.setImageResource(0);
+
 
     }
 

@@ -24,7 +24,7 @@
             android:id="@+id/currentQuestion"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="Question 1"
+            android:text="Questisadfasdfon 1"
             android:textStyle="bold"
             android:textSize="25sp"/>
 

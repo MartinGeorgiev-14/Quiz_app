@@ -25,8 +25,7 @@ public class Instructions extends Dialog {
         final AppCompatButton continueButton = findViewById(R.id.continueButton);
         final TextView instructions = findViewById(R.id.instructions);
 
-        setInstructionPoint(instructions, "1. You have to complete this quiz");
-        setInstructionPoint(instructions, "2. You will get one point for every correct answer");
+        setInstructionPoint(instructions, "You will get one point for every correct answer");
         continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
